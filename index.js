@@ -26,10 +26,13 @@ function iLoveTheBeatles(num) {
   let new_array = [];
   
   do {
-      new_array.push('I Love The Beatles!')
+      new_array.push('I Love The Beatles!');
       num++;
   } while (num <15);
-  if (num>15){new_array.push('I Love The Beatles!')}
+  if (num>15)
+  {new_array.push('I Love The Beatles!');
+    
+  }
 
 
 return new_array;
